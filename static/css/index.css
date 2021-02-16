@@ -1,0 +1,27 @@
+body {
+    background-color: dodgerblue;
+}
+
+
+.pr {
+    text-align: center;
+    margin-top: 30%;
+}
+
+a.button_cl {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    background-color: darkorchid;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+a.button_cl:hover {
+    background: orchid;
+}
